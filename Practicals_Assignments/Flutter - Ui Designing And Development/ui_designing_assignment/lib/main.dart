@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:ui_designing_assignment/task_1.dart';
+import 'package:ui_designing_assignment/task_44.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,7 +32,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: AvatarBadge(imageUrl:  "assets/images/image.jfif",)
     );
   }
 }
